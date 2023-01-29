@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+import StatefulComponent from './components/StatefulGreeting';
 
 function App() {
   return (
     <div className="App">
-<FunctionalGreetingWithProps greeting="Nice to meet you!" name="Frirsta" age="24" />
+<StatefulComponent greeting="I am a statefull class component" name="Frirsta" />
     </div>
   );
 }
