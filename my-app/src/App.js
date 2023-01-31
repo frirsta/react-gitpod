@@ -1,9 +1,8 @@
 import "./App.css";
-import SearchBar1 from "./components/SearchBar1";
-
+import ControlledFormHooks from "./components/ControlledFormHooks";
 function App() {
   return <div className="App">
-      <SearchBar1 />
+      <ControlledFormHooks />
   </div>;
 }
 
